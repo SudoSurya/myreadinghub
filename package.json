@@ -1,0 +1,12 @@
+{
+  "name": "my-reading-hub",
+  "version": "1.0.0",
+  "description": "A mobile-first, dark-themed documentation site",
+  "scripts": {
+    "build": "node generate-sidebar.js",
+    "dev": "node generate-sidebar.js && npx serve ."
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  }
+}
